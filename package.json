@@ -1,0 +1,51 @@
+{
+  "name": "jec-jdi-mock",
+  "version": "1.0.8",
+  "description": "JEC JDI-MOCK - Mocking library for testing objects built over the JavaScript Dependency Injection API (JDI).",
+  "main": "dist/com/jec/jec-jdi-mock-index",
+  "types": "types/jec-jdi-mock.d.ts",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pechemann/jec-jdi-mock.git"
+  },
+  "keywords": [
+    "JEC",
+    "JDI",
+    "MOCK",
+    "JDI-MOCK",
+    "Dependency Injection",
+    "JavaScript",
+    "TypeScript",
+    "server",
+    "applications"
+  ],
+  "author": "Pascal ECHEMANN",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/pechemann/jec-jdi-mock/issues"
+  },
+  "homepage": "https://github.com/pechemann/jec-jdi-mock#readme",
+  "dependencies": {
+    "jec-commons": "^1.1.8",
+    "jec-jdi": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.13",
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-ts": "^6.0.0-beta.17",
+    "grunt-typedoc": "^0.2.4",
+    "jec-juta": "^1.1.7",
+    "jec-tiger": "^1.1.8",
+    "mocha": "^3.4.2",
+    "typedoc": "^0.8.0",
+    "typescript": "^2.6.2"
+  }
+}
