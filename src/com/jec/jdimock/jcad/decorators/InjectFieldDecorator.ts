@@ -41,7 +41,7 @@ export class InjectFieldDecorator implements Decorator {
    * @inheritDoc
    */
   public decorate(target:any, key:string,
-                                    context:string|Interface|InjectParams):any {
+                                   context:string|Interface|InjectParams):void {
     if (delete target[key]) {
       Object.defineProperty(target, key, {
         value: null,
@@ -50,6 +50,5 @@ export class InjectFieldDecorator implements Decorator {
         writable: true
       });
     }
-    return target;
   }
 }
