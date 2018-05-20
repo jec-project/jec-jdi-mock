@@ -11,7 +11,6 @@ class InjectFieldDecorator {
                 writable: true
             });
         }
-        return target;
     }
 }
 exports.InjectFieldDecorator = InjectFieldDecorator;

@@ -75,7 +75,7 @@ The documentation generator is [TypeDoc](http://typedoc.org/)
 
 ## Update Release Notes
 
-**Current stable release:** [1.0.0](CHANGELOG.md#jec-jdi-mock-1.0.0)
+**Current stable release:** [1.0.9](CHANGELOG.md#jec-jdi-mock-1.0.9)
  
 For a complete listing of release notes for all JEC JDI-MOCK update releases, see the [CHANGELOG](CHANGELOG.md) file. 
 

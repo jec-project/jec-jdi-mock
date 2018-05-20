@@ -1,6 +1,6 @@
 {
   "name": "jec-jdi-mock",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "JEC JDI-MOCK - Mocking library for testing objects built over the JavaScript Dependency Injection API (JDI).",
   "main": "dist/com/jec/jec-jdi-mock-index",
   "types": "types/jec-jdi-mock.d.ts",
