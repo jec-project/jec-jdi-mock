@@ -1,5 +1,9 @@
 # JEC JDI-MOCK Project
 
+[![JEC version](https://img.shields.io/badge/JEC-1.0-%23ba00ff.svg)](http://jecproject.org)
+[![npm version](https://badge.fury.io/js/jec-jdi-mock.svg)](https://www.npmjs.com/package/jec-jdi-mock)
+[![Apache 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
 JEC JDI is a [JavaScript Enterprise Container][jec-url] project mocking functionalities for testing objects built over the JavaScript Dependency Injection API (JDI).
 
 [![][jec-logo]][jec-url]
@@ -39,7 +43,6 @@ tiger.process((stats:TestStats)=> {
   else {
     console.log(
 `Test stats:
-- test lookup process duration: ${stats.time}
 - number of test suites: ${stats.numTestSuites}
 - number of disabled test suites: ${stats.numDisabledTestSuites}
 - number of synchronous test cases: ${stats.numTests}
@@ -75,7 +78,7 @@ The documentation generator is [TypeDoc](http://typedoc.org/)
 
 ## Update Release Notes
 
-**Current stable release:** [1.0.9](CHANGELOG.md#jec-jdi-mock-1.0.9)
+**Current stable release:** [1.1.1](CHANGELOG.md#jec-jdi-mock-1.1.1)
  
 For a complete listing of release notes for all JEC JDI-MOCK update releases, see the [CHANGELOG](CHANGELOG.md) file. 
 
